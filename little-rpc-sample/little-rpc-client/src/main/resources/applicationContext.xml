@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"    
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xmlns:aop="http://www.springframework.org/schema/aop"   
+    xmlns:context="http://www.springframework.org/schema/context"  
+    xmlns:jee="http://www.springframework.org/schema/jee"  
+    xmlns:tx="http://www.springframework.org/schema/tx"  
+    xsi:schemaLocation="    
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd  
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd  
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd  
+        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd  
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+<context:component-scan base-package="com.taoyuanx.demo"/>
+<!-- 
+<bean  class="com.taoyuanx.littlerpc.client.TargetBeanFactory" >
+<property name="service" value="com.taoyuanx.demo.service.DemoService"/>
+<property name="address" value="127.0.0.1:8888"/>
+<property name="serializer" value="FST"/>
+<property name="version" value="1"/>
+<property name="token" value="123456"/>
+</bean>
+
+<bean  class="com.taoyuanx.littlerpc.client.TargetBeanFactory" >
+<property name="service" value="com.taoyuanx.demo.service.MathService"/>
+<property name="address" value="127.0.0.1:8888"/>
+<property name="serializer" value="FST"/>
+</bean> -->
+
+</beans>  
