@@ -134,4 +134,10 @@ MathService mathService;
 	用户亦可自定义负载均衡实现类:全限定类名 如: com.taoyuanx.littlerpc.route.xxxRoute 继承抽象Route类
 	timeout :超时时间
 ```
+#### 仓库地址
 
+**git地址:**[https://github.com/dushitaoyuan/little-rpc](https://github.com/dushitaoyuan/little-rpc)
+
+
+
+**码云地址:**[https://gitee.com/taoyuanx/little-rpc](https://gitee.com/taoyuanx/little-rpc) 
